@@ -25,7 +25,30 @@ const HomeScreen = (props) => {
                   props.navigation.navigate('Image')
               }}
           />
-
+          <View style={styles.margin}>
+              <Button
+                  title="Counter Screen"
+                  onPress={() => {
+                      props.navigation.navigate('Counter')
+                  }}
+              />
+          </View>
+          <View>
+              <Button
+                  title="Color Screen"
+                  onPress={() => {
+                      props.navigation.navigate('Color')
+                  }}
+              />
+          </View>
+          <View style={styles.margin}>
+              <Button
+                  title="Color Screen"
+                  onPress={() => {
+                      props.navigation.navigate('Square')
+                  }}
+              />
+          </View>
       </View>
 
 
